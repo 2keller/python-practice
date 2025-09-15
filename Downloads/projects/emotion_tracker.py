@@ -10,7 +10,7 @@
 
 #save the emotion to a file
 
-print("hello world welcome to the emotion tracker bby yours truly kelly")
+print("hello world welcome to the emotion tracker by yours truly kelly")
 read = input("do you want to read your feelings from the file? (yes/no) ").lower()
 if read == "yes":
     with open("feelings.txt", "r") as f:
